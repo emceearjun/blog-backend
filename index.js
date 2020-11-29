@@ -1,5 +1,5 @@
 const config = require("dotenv").config();
-const WEB_PORT = process.env.WEB_PORT;
+const WEB_PORT = process.env.PORT || process.env.WEB_PORT;
 const connection = require("./models/connection");
 
 const express = require("express");
