@@ -1,0 +1,16 @@
+$gray-light: #eaeaea;
+$gray-medium: #cacaca;
+$gray-dark: #919191;
+$gray-extra-dark: #515151;
+$white: #ffffff;
+$blue: #079bd1;
+$black: #000000;
+
+$dark-text: $gray-extra-dark;
+
+// Alignment variables
+$spacing-unit: 10px;
+
+@function spacing($units) {
+  @return ($units * $spacing-unit);
+}

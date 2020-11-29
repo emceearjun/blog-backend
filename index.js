@@ -8,6 +8,7 @@ const postsRoute = require("./routes/posts");
 
 app.use(express.json());
 app.use("/api/posts", postsRoute);
+app.use(express.static('public'))
 
 app.listen(WEB_PORT, () => {
   console.log(`Listening on port ${WEB_PORT}`);
